@@ -3,8 +3,8 @@
 </script>
 
 <section class="bg-dark2">
-    <h1 class="c-contrast">Single-Session</h1>
-    <h2 class="c-contrast">Transient, end-to-end encrypted messaging for the web.</h2>
+    <h1 class="c-contrast center">Single-Session</h1>
+    <h2 class="c-contrast center">Transient, end-to-end encrypted messaging</h2>
 </section>
 
 <div class="spacer layer1" />
@@ -23,9 +23,10 @@
     }
 
     h1 {
-        font-family: "Work Sans", sans-serif;
+        font-family: 'Martel', serif;
         font-size: 4em;
         text-transform: uppercase;
+        margin-bottom: 0.3em;
     }
 
     h2 {
@@ -76,4 +77,9 @@
     .layer1 {
         background-image: url("/assets/layered-peaks-haikei.svg");
     }
+
+    .center {
+        text-align: center;
+    }
+
 </style>
